@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holiday System Status Checker</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <div class="terminal">
+    <h2 id="holidayTitle">Holiday System Check</h2>
+    <p>> Initializing system status scan...</p>
+
+    <select id="holidaySelect">
+      <option value="Presidents’ Day">Presidents’ Day US</option>
+      <option value="MLK Day">MLK Day</option>
+      <option value="Juneteenth">Juneteenth</option>
+      <option value="Thanksgiving">Thanksgiving</option>
+      <option value="Random PTO Friday">Random PTO Friday 😏</option>
+    </select>
+
+    <button onclick="runCheck()">Run System Check</button>
+
+    <div class="output" id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
